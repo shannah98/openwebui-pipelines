@@ -53,8 +53,8 @@ class Pipeline:
         # This function is called when the server is started. It connects to the
         # existing ChromaDB vector store used by OpenWebUI.
        # db_path = "/app/backend/data/chroma"
-       #his function is called when the server is started. It connects to the directory of uploaded files
-        db_path = "/app/backend/data/uploads"
+       #his function is called when the server is started. It connects to the directory of vector_db
+        db_path = "/app/backend/data/vector_db
  
         if not os.path.exists(db_path):
             print(
